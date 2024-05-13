@@ -42,22 +42,22 @@
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 60px;
   font-weight: 700;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -108,7 +108,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 100vh;
+  height: 70vh;
 }
 
 .hello {
@@ -129,6 +129,10 @@ section {
   flex-direction: column;
 }
 
+.landing p{
+  width: 70vh;
+}
+
 span {
   color: #ad974f;
 }
@@ -139,11 +143,11 @@ section p {
 
 button {
   padding: 15px 15px;
-  width: 100px;
+  width: 150px;
   border: 2px solid #333;
   border-radius: 10px;
   color: #333;
-  font-size: 14px;
+  font-size: 20px;
   cursor: pointer;
 }
 
@@ -171,7 +175,8 @@ button:hover {
 }
 
 .card {
-  width: 250px;
+  width: 25vh;
+  height: 40vh;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -191,14 +196,16 @@ button:hover {
 }
 
 .card-content p {
+  padding: 10px;
   font-size: 14px;
 }
 
 .card-content button {
   margin-top: 10px;
   height: 40px;
-  width: 100px;
+  width: 120px;
   padding: 5px;
+  font-size: 16px;
   background-color: #ffffff;
 }
 
